@@ -24,6 +24,17 @@ Each user and project must have a unique name.
 ![startView](https://github.com/ViktorAnchutin/JavaConsoleApp/blob/master/img/FirstView.PNG?raw=true)
 
 All data is stored in SQLite database . User can select it's own .sqlite file (it must match the database schema). 
-By default file "db.sqlite" is selected.
+
 
 ![tables](https://github.com/ViktorAnchutin/JavaConsoleApp/blob/master/img/tables.PNG?raw=true)
+
+To run the application type :
+```
+java -jar JavaConsoleApp.jar
+```
+in project directory.
+
+There are two sqlite files with set schemas. By default file "db.sqlite" is selected. To change database file after you run the app type:
+```
+change db
+```
